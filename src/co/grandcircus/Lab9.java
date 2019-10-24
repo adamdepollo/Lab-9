@@ -30,7 +30,7 @@ public class Lab9 {
 				// Ask user to input quantity of that item they want to purchase
 				// and validate the input using Validator.getInt method
 				int numItems = Validator.getInt(scnr,
-						"And how many " + getKeyString(itemChoice, itemMenu).toLowerCase() + "s would you like?\n");
+						"And how many " + getKeyString(itemChoice, itemMenu).toLowerCase() + "s would you like?\n", 1, 10000);
 
 				// Save the item selection to the itemsOrdered HashMap. If the item was already
 				// in their cart, add the new quantity to the number that was already saved in
