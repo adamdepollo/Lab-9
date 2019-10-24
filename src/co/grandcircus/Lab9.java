@@ -25,7 +25,7 @@ public class Lab9 {
 				// Ask user to select an item to purchase from the menu using its item number
 				// and validate the selection using Validator.getInt method
 				int itemChoice = Validator.getInt(scnr,
-						"What item would you like to purchase? (Enter a number 1-10)\n");
+						"What item would you like to purchase? (Enter a number 1-10)\n", 1, 10);
 
 				// Ask user to input quantity of that item they want to purchase
 				// and validate the input using Validator.getInt method
